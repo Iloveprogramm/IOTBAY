@@ -1,0 +1,88 @@
+.container_payment {
+    background-color: #778899;
+    padding: 30px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+h2 {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "Comic Sans MS";
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.line label, 
+.line select {
+    flex: 1;
+}
+
+.container_input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.container_input .full-width {
+    grid-column: span 2;
+}
+
+.container_input div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_input label, 
+.container_input input {
+    margin: 0.5em;
+}
+
+.container_input input[type="text"], 
+.container_payment input[type="submit"] {
+    font-family: "Comic Sans MS";
+    color: #BDB76B;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.container_payment input[type="submit"] {
+    background-color: #3CB371;
+    font-size: 16px;
+    color: #F0FFFF;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container_payment input[type="submit"]:hover {
+    background-color: #2E8B57;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+            
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}

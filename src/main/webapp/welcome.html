@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>IoTBay Welcome page</title>
+    <link rel="stylesheet" href="landing.css" type="text/css"/>
+    <style>
+        .progress-bar-container 
+        {
+            width: 400px;
+            height: 20px;
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 50px auto;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background-color: #4CAF50;
+            width: 0%;
+            transition: width 2s ease-in-out;
+            animation: progress-bar-fill 3s linear forwards;
+        }
+
+        @keyframes progress-bar-fill {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        .features-container {
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .feature {
+            font-size: 1.2em;
+            text-align: center;
+            width: 25%;
+        }
+    </style>
+
+    <script>
+        function redirectToLandingPage() {
+            var progressBar = document.querySelector('.progress-bar');
+            progressBar.addEventListener('animationend', function() 
+            {
+                window.location.href = 'main.jsp'; 
+            });
+        }
+    </script>
+</head>
+<body onload="redirectToLandingPage()">
+    <header>
+       
+        <h1>IoTBay</h1>
+    </header>
+        <h1>Welcome to IoTBay</h1>
+    <div class="progress-bar-container">
+        <div class="progress-bar"></div>
+    </div>
+    <div class="features-container">
+        <div class="feature">
+            <h2>Wide range of products</h2>
+            <p>IoTBay products of every kind to suit your requirements in daily life and at work are available at IoTBay..</p>
+        </div>
+        <div class="feature">
+            <h2>Quality service</h2>
+             <p>In order to make your purchasing experience enjoyable, our team is dedicated to always giving you top-notch goods and first-rate support.</p>
+        </div>
+        <div class="feature">
+            <h2>Secure Payment</h2>
+            <p>Your personal information and transaction data are safe and secure because we use cutting-edge encryption technology to safeguard your payment security.</p>
+        </div>
+    </div>
+    <footer>
+    <p>&copy; 2023 IoTBay All Rights Reserved</p>
+</footer>
+</body>
+</html>

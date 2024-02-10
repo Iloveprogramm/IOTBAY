@@ -1,0 +1,36 @@
+h2 {
+    font-family: "Comic Sans MS";
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "Comic Sans MS";
+    color: #2E8B57;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+}
+
+.product-details {
+    font-family: "Comic Sans MS";
+    margin-left: 20px;
+}
+
+.product-name {
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+}
+
+.product-quantity, .product-price {
+    font-family: "Comic Sans MS";
+    margin-top: 5px;
+}
+
+
+
+

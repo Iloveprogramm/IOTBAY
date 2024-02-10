@@ -1,0 +1,15 @@
+com\mycompany\mavenproject1\resources\JavaEE8Resource.class
+DAO\CartDAO.class
+Controllers\DatabaseController.class
+Controllers\ProductController.class
+Controllers\AccountController.class
+Controllers\Payment.class
+com\mycompany\mavenproject1\JAXRSConfiguration.class
+Controllers\SupplierController$Supplier.class
+Controllers\LogsController.class
+Controllers\SupplierController.class
+Controllers\OrderController.class
+Models\Order.class
+Controllers\PaymentController.class
+Controllers\CartController.class
+DAO\OrderDAO.class
